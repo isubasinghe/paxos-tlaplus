@@ -25,11 +25,14 @@ ASSUME
 Messages ==
   [type: {"phase1a"}, ins : RM, bal: Ballot \ {0}]
     \cup
-  [type: {"phase1b"}, ins : RM, mbal: Ballot, bal: Ballot \cup {-1}, val: {"prepared", "aborted", "none"}, acc: Acceptor]
+  [type: {"phase1b"}, ins : RM, mbal: Ballot, bal: Ballot \cup {-1}, 
+    val: {"prepared", "aborted", "none"}, acc: Acceptor]
     \cup
-  [type: {"phase2a"}, ins: RM, bal: Ballot, val: {"prepared", "aborted", "none"}]
+  [type: {"phase2a"}, ins: RM, bal: Ballot, 
+    val: {"prepared", "aborted", "none"}]
     \cup
-  [type: {"phase2b"}, acc : Acceptor, ins : RM, bal : Ballot, val : {"prepared", "aborted"}]
+  [type: {"phase2b"}, acc : Acceptor, ins : RM, bal : Ballot, 
+    val : {"prepared", "aborted"}]
     \cup
   [type: {"Commit", "Abort"}]
   
@@ -46,6 +49,6 @@ PCTypeOk ==
   
  ========================================
 \* Modification History
-\* Last modified Thu Jun 24 20:03:10 AEST 2021 by Isitha Subasinghe
+\* Last modified Thu Jun 24 20:04:44 AEST 2021 by Isitha Subasinghe
 \* Created Thu Jun 24 19:28:01 AEST 2021 by Isitha Subasinghe
 

@@ -977,15 +977,18 @@
  Ballot \.{\,\backslash\,} \{ 0 \} ]}%
 \@x{\@s{15.07} \.{\cup}}%
  \@x{\@s{8.2} [ type \.{:} \{\@w{phase1b} \} ,\, ins \.{:} RM ,\, mbal \.{:}
- Ballot ,\, bal \.{:} Ballot \.{\cup} \{ \.{-} 1 \} ,\, val \.{:}
- \{\@w{prepared} ,\,\@w{aborted} ,\,\@w{none} \} ,\, acc \.{:} Acceptor ]}%
+ Ballot ,\, bal \.{:} Ballot \.{\cup} \{ \.{-} 1 \} ,\,}%
+ \@x{\@s{15.07} val\@s{0.72} \.{:} \{\@w{prepared} ,\,\@w{aborted}
+ ,\,\@w{none} \} ,\, acc \.{:} Acceptor ]}%
 \@x{\@s{15.07} \.{\cup}}%
  \@x{\@s{8.2} [ type \.{:} \{\@w{phase2a} \} ,\, ins \.{:} RM ,\, bal \.{:}
- Ballot ,\, val \.{:} \{\@w{prepared} ,\,\@w{aborted} ,\,\@w{none} \} ]}%
+ Ballot ,\,}%
+ \@x{\@s{15.07} val\@s{0.72} \.{:} \{\@w{prepared} ,\,\@w{aborted}
+ ,\,\@w{none} \} ]}%
 \@x{\@s{15.07} \.{\cup}}%
  \@x{\@s{8.2} [ type \.{:} \{\@w{phase2b} \} ,\, acc \.{:} Acceptor ,\, ins
- \.{:} RM ,\, bal \.{:} Ballot ,\, val \.{:} \{\@w{prepared} ,\,\@w{aborted}
- \} ]}%
+ \.{:} RM ,\, bal \.{:} Ballot ,\,}%
+\@x{\@s{15.07} val \.{:} \{\@w{prepared} ,\,\@w{aborted} \} ]}%
 \@x{\@s{15.07} \.{\cup}}%
 \@x{\@s{8.2} [ type \.{:} \{\@w{Commit} ,\,\@w{Abort} \} ]}%
 \@pvspace{8.0pt}%
@@ -1000,8 +1003,8 @@
  \@x{\@s{153.58} val\@s{4.10} \.{:} \{\@w{prepared} ,\,\@w{aborted}
  ,\,\@w{none} \} ] ] ]}%
 \@x{\@s{8.2} \.{\land} msgs \.{\subseteq} Messages}%
-\@pvspace{8.0pt}%
-\@x{}\bottombar\@xx{}%
+\@pvspace{24.0pt}%
+\@x{\@s{4.1}}\bottombar\@xx{}%
 \setboolean{shading}{false}
 \begin{lcom}{0}%
 \begin{cpar}{0}{F}{F}{0}{0}{}%
@@ -1009,7 +1012,7 @@
 \end{cpar}%
 \begin{cpar}{0}{F}{F}{0}{0}{}%
  \ensuremath{\.{\,\backslash\,}}* Last modified \ensuremath{Thu}
- \ensuremath{Jun} 24 19:56:23 \ensuremath{AEST} 2021 by \ensuremath{Isitha}
+ \ensuremath{Jun} 24 20:04:44 \ensuremath{AEST} 2021 by \ensuremath{Isitha}
  \ensuremath{Subasinghe
 }%
 \end{cpar}%
